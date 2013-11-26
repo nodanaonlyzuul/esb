@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'asciiart/version'
+require 'esb/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "esb"
-  gem.version       = AsciiArt::VERSION
+  gem.version       = Esb::VERSION
   gem.authors       = ["nodanaonlyzuul"]
   gem.email         = ["beholdthepanda@gmail.com"]
   gem.summary       = %q{A command line tool to tell you what color the empire state building is, and why.}
