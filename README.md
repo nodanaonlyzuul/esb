@@ -10,9 +10,12 @@ Look up the Empire State Building's current color - from your command line.
 
     $ esb
 
-    November 25 - 28
-    Special Lighting in Fall Colors
-    In honor of the 87th Annual Macy's Thanksgiving Day Parade
+    Tonight, the Empire State Building will be lit in its signature white.
+
+## Getting Blank Text?
+
+This gem scrapes http://www.esbnyc.com - they occasionally update their markup in a way
+that breaks our scraping. File an issue or better yet, fix it and make a pull request!
 
 ## Contributing
 
