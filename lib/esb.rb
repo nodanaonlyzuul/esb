@@ -3,9 +3,9 @@ require 'open-uri'
 
 class Esb
   def self.get_color
-    doc = Nokogiri::HTML(open("http://www.esbnyc.com/current_events_tower_lights.asp"))
+    doc = Nokogiri::HTML(open("https://www.esbnyc.com/explore/tower-lights"))
     puts " "
-    puts doc.css("#page-title").text.strip
+    puts doc.css(".view-tower-lighting #page-title").text.strip
     puts " "
   end
 end
